@@ -1,0 +1,17 @@
+
+
+.vscode
+/.vscode
+
+*.csv
+
+/auto_poster/__pycache__
+/auto_poster/*.pyc
+/auto_poster/spiders/__pycache__
+/auto_poster/spiders/*.pyc
+/data
+
+*.exe
+*.log
+*.jpg
+bbs.py
