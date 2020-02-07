@@ -163,7 +163,7 @@ class AutoPosterSpider(Spider):
 		formdata['olym'] = "06_supp04"
 		formdata['code'] = "06_supp04"
 		formdata["bid]"]= "supp05"
-		formdata["password"]: self.password
+		formdata["password"]= self.password
 		formdata["file_check1"] = ""
 		formdata["oldfile1"] = ""
 		yield FormRequest(url, method="POST", formdata=formdata, headers=hdrs)
